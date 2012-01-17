@@ -1,0 +1,7 @@
+Pancake plugin for controlling haproxy
+
+Example config:
+
+name haproxy_1
+module Pancake::Plugin::HAProxy
+socket /path/to/your/haproxy.sock
